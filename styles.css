@@ -1,0 +1,182 @@
+body{
+  margin:0;
+  text-align:center;
+  font-family: 'Redressed', cursive;
+
+}
+h1{
+  color:#583d72;
+  width:30%;
+  margin:0 auto 0 auto; /*for center*/
+  font-family: 'Pirata One', cursive;
+  font-size: 600%;
+   /*1px=16%*/
+}
+h2{
+  font-size: 300%;
+  color:#150485;
+  margin:0 auto 5  auto;
+}
+h3{
+  font-size:220%;
+  color:#d7385e;
+  margin:5 auto 5 auto;
+  padding:10px;
+}
+
+p{
+  color:#ff4646;
+  font-size:28px;
+
+}
+
+.top-container{
+  background-color:#a6f6f1;
+  position:relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin:10 auto 20 auto;
+
+}
+.topcloud{
+  width:30%;
+  position:absolute;
+  right: 16px;
+    top: 278px;
+}
+.bottomcloud{
+  width:30%;
+  position:absolute;
+  left: 45px;
+  bottom: 170px;
+}
+
+.rainbow{
+  width:65%;
+
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 4px;
+  height: 0;
+  width: 5%;
+  margin: 5 auto 5 auto;
+  /* 5% of the screen */
+}
+
+.circular{
+  border-radius:250px;
+}
+
+#mypic{
+  width:15%;
+  padding-top:5px;
+
+}
+
+.skills{
+  border:5px;
+  border-style: double;
+  border-color:#16a596;
+}
+.contact-me{
+  background-color: #99f3bd;
+  padding:3px;
+  margin:5 auto 5 auto;
+}
+
+.skill-row{
+  line-height: 2;
+  margin:30 auto 25 auto;
+  border:3px;
+  border-style: solid;
+  border-color: #fbf6f0;
+
+}
+
+.skillsc{
+  width:16%;
+  margin: 10 auto 10 auto;
+  float:left;
+}
+
+.skillssql{
+  width:16%;
+  margin: 10 auto 10 auto;
+  float:right;
+
+}
+
+.middle-container{
+  background-color:#c6fced;
+  padding:10px;
+}
+
+.bottom-container{
+  background-color:#fcf876;
+  padding:10px;
+  margin:10 auto 10 auto;
+
+}
+
+
+a{
+  color:#e11d74;
+  font-size:18px;
+  text-decoration: none;
+
+}
+a:hover{
+  color:#16a596;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #0059A0;
+   font-family: 'Redressed', cursive;
+   width: 140px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 9px;
+   background-color: #F6ED3D;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #0059A0 5px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin:5 auto 15 auto;
+
+}
+
+.btn:hover {
+   border: solid #33EDCE 1px;
+   background: #D09E1E;
+   background-image: -webkit-linear-gradient(top, #D09E1E, #F68A3D);
+   background-image: -moz-linear-gradient(top, #D09E1E, #F68A3D);
+   background-image: -ms-linear-gradient(top, #D09E1E, #F68A3D);
+   background-image: -o-linear-gradient(top, #D09E1E, #F68A3D);
+   background-image: -webkit-gradient(to bottom, #D09E1E, #F68A3D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.last{
+  font-size: 20px;
+}
+/*flaticon.com*/
+/*relative positioning leave a ghost. position relative to where it should
+have been existed*/
+/*absolute positioning doesn't leave a ghost. position is acc.to it's parent element*/
+/*fixed positioning to fix the element on website relative to parent element*/
